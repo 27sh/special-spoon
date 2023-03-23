@@ -16,7 +16,20 @@ pop이 잘 되었는지 확인하기 위해 같은 방식으로 배열 안의 �
 
 > 실행결과
 
-![이미지]https://blogfiles.pstatic.net/MjAyMzAzMjNfODkg/MDAxNjc5NTM2NzI2MjQw.kuMv8xgico8yGq7LraF257-bi05gQVcqzYL_HpoW2q8g.GjPAAgKbxtgEM7PITfuIRXnGqxyBlqNW8Vl6rZJ0g1Ug.PNG.saehee0427/image.png
+![이미지](https://blogfiles.pstatic.net/MjAyMzAzMjNfODkg/MDAxNjc5NTM2NzI2MjQw.kuMv8xgico8yGq7LraF257-bi05gQVcqzYL_HpoW2q8g.GjPAAgKbxtgEM7PITfuIRXnGqxyBlqNW8Vl6rZJ0g1Ug.PNG.saehee0427/image.png)
 
 # Linked-List - Stack
 
+vs에 있는 stack 클래스를 사용하여 구현하였다.
+
+stack.Push(n)을 사용하여 push 해주고
+
+push가 잘 작동되었는지 확인하기 위해 foreach를 사용하여 stack 을 전부 출력하였다.
+
+push와 마찬가지로 stack.pop()을 사용하여 pop해주었다.
+
+pop 또한 잘 작동되었는지 확인하기 위해 같은 방법을 사용하였다.
+
+> 실행결과
+
+![이미지](https://blogfiles.pstatic.net/MjAyMzAzMjNfMjY0/MDAxNjc5NTM3NzIyMTk3.ANIFrGQG4jzjatkql43CHmdueZliD1oesin6uIaS_bog.56LWpoRzDSoX2CqniSbG3PuCvJkNfITFat_Y4ledsnAg.PNG.saehee0427/image.png)

@@ -18,6 +18,9 @@ pop이 잘 되었는지 확인하기 위해 같은 방식으로 배열 안의 �
 
 ![이미지](https://blogfiles.pstatic.net/MjAyMzAzMjNfODkg/MDAxNjc5NTM2NzI2MjQw.kuMv8xgico8yGq7LraF257-bi05gQVcqzYL_HpoW2q8g.GjPAAgKbxtgEM7PITfuIRXnGqxyBlqNW8Vl6rZJ0g1Ug.PNG.saehee0427/image.png)
 
+
+
+
 # Linked-List - Stack
 
 vs에 있는 stack 클래스를 사용하여 구현하였다.

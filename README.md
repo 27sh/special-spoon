@@ -23,16 +23,14 @@ pop이 잘 되었는지 확인하기 위해 같은 방식으로 배열 안의 �
 
 # Linked-List - Stack
 
-vs에 있는 stack 클래스를 사용하여 구현하였다.
-
-stack.Push(n)을 사용하여 push 해주고
+List.AddLast을 사용하여 마지막 부분에 push 해주고
 
 push가 잘 작동되었는지 확인하기 위해 foreach를 사용하여 stack 을 전부 출력하였다.
 
-push와 마찬가지로 stack.pop()을 사용하여 pop해주었다.
+List.RemoveLast()을 사용하여 마지막 값을 pop해주었다.
 
 pop 또한 잘 작동되었는지 확인하기 위해 같은 방법을 사용하였다.
 
 > 실행결과
 
-![이미지](https://blogfiles.pstatic.net/MjAyMzAzMjNfMjY0/MDAxNjc5NTM3NzIyMTk3.ANIFrGQG4jzjatkql43CHmdueZliD1oesin6uIaS_bog.56LWpoRzDSoX2CqniSbG3PuCvJkNfITFat_Y4ledsnAg.PNG.saehee0427/image.png)
+![이미지](https://blogfiles.pstatic.net/MjAyMzAzMjdfMjc5/MDAxNjc5OTAwMTc3NTI5.lpWvZuOEhzjmcpjt4wgtBQfPZmdIVygLDIOgkaoN7SAg.FHatF6HCj4EuoDRHg812TBdgDyzRD1E2KicqkjJy3X0g.PNG.saehee0427/image.png)

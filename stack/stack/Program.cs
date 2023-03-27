@@ -10,39 +10,43 @@ namespace stack
     {
         static void Main(string[] args)
         {
-            Stack<int> stack = new Stack<int>();
-            stack.Push(1);
+            int[] listarr = new int[] { };
+            LinkedList<int> List = new LinkedList<int>(listarr);
+
             Console.WriteLine("Push : 1");
-            stack.Push(2);
+            List.AddLast(1);
             Console.WriteLine("Push : 2");
-            stack.Push(3);
+            List.AddLast(2);
             Console.WriteLine("Push : 3");
+            List.AddLast(3);
 
             Console.WriteLine();
-
-            Console.Write("list : ");
-
-            foreach (var str in stack)
+            Console.Write("List : ");
+        
+            foreach (int i in List)
             {
-                Console.Write("{0} ", str);
+                Console.Write($"{i} ");
             }
 
             Console.WriteLine();
             Console.WriteLine();
 
-            Console.WriteLine("POP : {0}", stack.Pop());
-            Console.WriteLine("POP : {0}", stack.Pop());
+            Console.WriteLine("POP : 3");
+            List.RemoveLast();
+            Console.WriteLine("POP : 2");
+            List.RemoveLast();
 
             Console.WriteLine();
-
-            Console.Write("list : ");
-
-            foreach (var str in stack)
+            Console.Write("List : ");
+        
+            foreach (int i in List)
             {
-                Console.Write("{0}", str);
+                Console.Write($"{i} ");
             }
 
             Console.WriteLine();
+
+        }
+
         }
     }
-}
